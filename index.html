@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Breed-Specific Dog Age Calculator</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breed-Specific Dog Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="calculator">
-    <h1>Dog Age Calculator</h1>
-    <label>Dog's Age (Years):</label>
-    <input type="number" id="dogAge" min="1" max="30">
-    
-    <label>Breed Size:</label>
-    <select id="breedSize">
-      <option value="small">Small</option>
-      <option value="medium">Medium</option>
-      <option value="large">Large</option>
-    </select>
-    
-    <button onclick="calculate()">Calculate</button>
-    <div id="result"></div>
-    <div id="healthChart"></div>
-  </div>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1 class="header">🐾 Advanced Dog Age Calculator</h1>
+        
+        <div class="calculator-card">
+            <div class="input-group">
+                <label for="dogAge">Dog's Age (Years):</label>
+                <input type="number" id="dogAge" min="1" max="30" placeholder="Enter age 1-30">
+            </div>
+
+            <div class="input-group">
+                <label for="breedSize">Breed Size:</label>
+                <select id="breedSize">
+                    <option value="small">Small (e.g., Chihuahua)</option>
+                    <option value="medium">Medium (e.g., Bulldog)</option>
+                    <option value="large">Large (e.g., Labrador)</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="region">Region:</label>
+                <select id="region">
+                    <option value="US">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="EU">European Union</option>
+                </select>
+            </div>
+
+            <button class="calculate-btn" onclick="calculate()">Calculate Age & Health Risks</button>
+
+            <div id="result" class="result-box"></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>🩺 Health Risk Analysis</h3>
+            <div id="chartContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-<label>Region:</label>
-<select id="region">
-  <option value="US">United States</option>
-  <option value="Canada">Canada</option>
-  <option value="EU">European Union</option>
-</select>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<div id="chartContainer"></div>
