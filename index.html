@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breed-Specific Dog Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Dog Age Calculator</h1>
+    <label>Dog's Age (Years):</label>
+    <input type="number" id="dogAge" min="1" max="30">
+    
+    <label>Breed Size:</label>
+    <select id="breedSize">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+    
+    <button onclick="calculate()">Calculate</button>
+    <div id="result"></div>
+    <div id="healthChart"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
