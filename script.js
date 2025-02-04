@@ -1,6 +1,6 @@
 import {fetchHealthRisks} from "./petMdHealthRiskApi.js"
 
-function calculate() {
+async function calculate() {
     const dogAge = parseFloat(document.getElementById('dogAge').value);
     const breedSize = document.getElementById('breedSize').value;
     const region = document.getElementById('region').value;
@@ -15,7 +15,7 @@ function calculate() {
       `Your ${breedSize} dog is roughly ${humanAge} years old in human years!`;
   
     // Health Risk Chart (Step 3)
-    showHealthRisks(breedSize,region);
+    await showHealthRisks(breedSize,region);
   }
 
   const ageColors = {
@@ -30,8 +30,8 @@ function calculate() {
   }
   
   // Health Risks Data (Example)
-  function showHealthRisks(breedSize, region) {
-    const risksData = healthRisks[breedSize][region];
+  async function showHealthRisks(breedSize, region) {
+    const risksData = await fetchHealthRisks(breedSize);
     const ages = risksData.map(data => data.age);
     const riskLabels = risksData.map(data => data.risks.join(", "));
   
