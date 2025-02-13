@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #007bff;
+  width: 0;
+  transition: width 0.3s;
+}
+
+.question-slide {
+  text-align: center;
+}
+
+.question-slide h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.question-slide button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.question-slide .option-low {
+  background-color: #ff9999;
+}
+
+.question-slide .option-moderate {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-high {
+  background-color: #66cc66;
+}
+
+.question-slide .option-spotless {
+  background-color: #ff9999;
+}
+
+.question-slide .option-weekly {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-fluffy {
+  background-color: #66cc66;
+}
+
+.question-slide .option-charged {
+  background-color: #ff9999;
+}
+
+.question-slide .option-drained {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-hermit {
+  background-color: #66cc66;
+}
+
+.question-slide .option-fun {
+  background-color: #ff9999;
+}
+
+.question-slide .option-homework {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-basic {
+  background-color: #66cc66;
+}
+
+.question-slide .option-quiet {
+  background-color: #ff9999;
+}
+
+.question-slide .option-hum {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-loud {
+  background-color: #66cc66;
+}
+
+.question-slide .option-world {
+  background-color: #ff9999;
+}
+
+.question-slide .option-roadTrips {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-backyard {
+  background-color: #66cc66;
+}
+
+.question-slide .option-snuggles {
+  background-color: #ff9999;
+}
+
+.question-slide .option-occasional {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-noTouch {
+  background-color: #66cc66;
+}
+
+.question-slide .option-1hr {
+  background-color: #ff9999;
+}
+
+.question-slide .option-3hr {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-3+hr {
+  background-color: #66cc66;
+}
+
+.question-slide .option-3k {
+  background-color: #ff9999;
+}
+
+.question-slide .option-8k {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-8k+ {
+  background-color: #66cc66;
+}
+
+.question-slide .option-accidents {
+  background-color: #ff9999;
+}
+
+.question-slide .option-furniture {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-zoomies {
+  background-color: #66cc66;
+}
+
+.results {
+  text-align: center;
+}
+
+.pet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pet-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: calc(33.333% - 20px);
+}
+
+.pet-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.pet-card h3 {
+  margin: 10px 0;
+}
+
+.pet-card p {
+  margin: 5px 0;
+}
+
+.pet-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.pet-card a:hover {
+  background-color: #0056b3;
+}
