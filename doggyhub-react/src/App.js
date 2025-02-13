@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Calculator from './components/Calculator/Calculator';
-import Quiz from './components/Quiz/Quiz';
+import Calculator from './components/Calculator/Calculator/Calculator';
+import Quiz from './components/Calculator/Quiz/Quiz';
 import './App.css';
 
 function App() {
