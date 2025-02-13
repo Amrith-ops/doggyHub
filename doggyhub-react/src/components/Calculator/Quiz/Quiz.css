@@ -43,7 +43,6 @@ body {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #007bff;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -51,8 +50,124 @@ body {
   cursor: pointer;
 }
 
-.question-slide button:hover {
-  background-color: #0056b3;
+.question-slide .option-low {
+  background-color: #ff9999;
+}
+
+.question-slide .option-moderate {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-high {
+  background-color: #66cc66;
+}
+
+.question-slide .option-spotless {
+  background-color: #ff9999;
+}
+
+.question-slide .option-weekly {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-fluffy {
+  background-color: #66cc66;
+}
+
+.question-slide .option-charged {
+  background-color: #ff9999;
+}
+
+.question-slide .option-drained {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-hermit {
+  background-color: #66cc66;
+}
+
+.question-slide .option-fun {
+  background-color: #ff9999;
+}
+
+.question-slide .option-homework {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-basic {
+  background-color: #66cc66;
+}
+
+.question-slide .option-quiet {
+  background-color: #ff9999;
+}
+
+.question-slide .option-hum {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-loud {
+  background-color: #66cc66;
+}
+
+.question-slide .option-world {
+  background-color: #ff9999;
+}
+
+.question-slide .option-roadTrips {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-backyard {
+  background-color: #66cc66;
+}
+
+.question-slide .option-snuggles {
+  background-color: #ff9999;
+}
+
+.question-slide .option-occasional {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-noTouch {
+  background-color: #66cc66;
+}
+
+.question-slide .option-1hr {
+  background-color: #ff9999;
+}
+
+.question-slide .option-3hr {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-3+hr {
+  background-color: #66cc66;
+}
+
+.question-slide .option-3k {
+  background-color: #ff9999;
+}
+
+.question-slide .option-8k {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-8k+ {
+  background-color: #66cc66;
+}
+
+.question-slide .option-accidents {
+  background-color: #ff9999;
+}
+
+.question-slide .option-furniture {
+  background-color: #ffcc66;
+}
+
+.question-slide .option-zoomies {
+  background-color: #66cc66;
 }
 
 .results {
