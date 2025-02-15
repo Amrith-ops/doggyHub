@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/doggyHub/static/css/main.a0789b13.css",
-    "main.js": "/doggyHub/static/js/main.815b9c75.js",
+    "main.js": "/doggyHub/static/js/main.12b72c4f.js",
     "index.html": "/doggyHub/index.html",
     "main.a0789b13.css.map": "/doggyHub/static/css/main.a0789b13.css.map",
-    "main.815b9c75.js.map": "/doggyHub/static/js/main.815b9c75.js.map"
+    "main.12b72c4f.js.map": "/doggyHub/static/js/main.12b72c4f.js.map"
   },
   "entrypoints": [
     "static/css/main.a0789b13.css",
-    "static/js/main.815b9c75.js"
+    "static/js/main.12b72c4f.js"
   ]
 }
