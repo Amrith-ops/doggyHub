@@ -19,14 +19,12 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: |
-          cd doggyHub-react
-          npm install
+        run: npm install
+        working-directory: ./doggyHub-react
 
       - name: Build the project
-        run: |
-          cd doggyHub-react
-          npm run build
+        run: npm run build
+        working-directory: ./doggyHub-react
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
