@@ -29,8 +29,11 @@ jobs:
         run: npm run build
         working-directory: ./doggyhub-react
 
+      - name: List build directory contents
+        run: ls -la ./doggyhub-react/build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GIT_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./doggyhub-react/build
