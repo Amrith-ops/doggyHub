@@ -2,6 +2,7 @@
   "name": "doggyhub-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Amrith-ops.github.io/doggyHub",
   "dependencies": {
     "axios": "^1.7.9",
     "chart.js": "^4.4.7",
