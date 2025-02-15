@@ -17,7 +17,7 @@ const BREED_PROFILES = {
       space: ['house'],
       budget: ['8k', '8k+']
     },
-    image: '/images/golden_retriever.jpg'
+    image: process.env.PUBLIC_URL +'/images/golden_retriever.jpg'
   },
   'Shiba Inu': {
     energy: 3,
@@ -34,7 +34,7 @@ const BREED_PROFILES = {
       space: ['apartment'],
       budget: ['3k', '8k']
     },
-    image: '/images/Japanese_Shiba_Inu.jpg'
+    image: process.env.PUBLIC_URL +'/images/Japanese_Shiba_Inu.jpg'
   },
   'Bulldog': {
     energy: 2,
