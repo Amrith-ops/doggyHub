@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0789b13.css",
-    "main.js": "/static/js/main.d61cf04a.js",
-    "index.html": "/index.html",
-    "main.a0789b13.css.map": "/static/css/main.a0789b13.css.map",
-    "main.d61cf04a.js.map": "/static/js/main.d61cf04a.js.map"
+    "main.css": "/doggyHub/static/css/main.a0789b13.css",
+    "main.js": "/doggyHub/static/js/main.d61cf04a.js",
+    "index.html": "/doggyHub/index.html",
+    "main.a0789b13.css.map": "/doggyHub/static/css/main.a0789b13.css.map",
+    "main.d61cf04a.js.map": "/doggyHub/static/js/main.d61cf04a.js.map"
   },
   "entrypoints": [
     "static/css/main.a0789b13.css",
