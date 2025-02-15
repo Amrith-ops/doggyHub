@@ -51,7 +51,7 @@ const BREED_PROFILES = {
       space: ['apartment'],
       budget: ['3k', '8k']
     },
-    image: '/images/Border_collie.jpg'
+    image: process.env.PUBLIC_URL +'/images/Border_collie.jpg'
   },
   'Border Collie': {
     energy: 5,
@@ -68,7 +68,7 @@ const BREED_PROFILES = {
       space: ['house'],
       budget: ['8k+']
     },
-    image: '/images/Border_collie.jpg'
+    image: process.env.PUBLIC_URL +'/images/Border_collie.jpg'
   },
   'Poodle': {
     energy: 3,
@@ -85,7 +85,7 @@ const BREED_PROFILES = {
       space: ['house'],
       budget: ['8k+']
     },
-    image: '/images/poodle.jpg'
+    image: process.env.PUBLIC_URL +'/images/poodle.jpg'
   }
   // Add more breeds...
 };
